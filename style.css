@@ -1,0 +1,41 @@
+video 
+{ 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+    transform: translateX(-50%) translateY(-50%);
+}
+div.transparentbox 
+{
+  
+  width: 400px;
+  height: 400px;
+  background-color: #ffffff;
+  opacity: 0.85;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  margin: 0 auto ;
+margin-top: 150px;
+}
+div.transparentbox p 
+{
+  margin: 7%;
+
+}
+.img-circle{
+ width: 130px;
+ height: 130px;
+ background-image: url('http://strawberry-fest.org/wp-content/uploads/2012/01/Coca-Cola-logo.jpg');
+ background-size: cover;
+ -webkit-border-radius: 100px;
+ -moz-border-radius: 100px;
+ margin: auto;
+}
+div
+{
+text-align: center;
+}
